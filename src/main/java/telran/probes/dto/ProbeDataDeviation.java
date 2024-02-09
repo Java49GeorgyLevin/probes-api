@@ -22,8 +22,4 @@ public record ProbeDataDeviation(long sensorId, float value, float deviation, lo
 				&& Float.floatToIntBits(value) == Float.floatToIntBits(other.value);
 	}
 
-
-
-
-
 }
